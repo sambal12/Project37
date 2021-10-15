@@ -49,19 +49,19 @@ class Quiz {
         debugger;
         var correctAns = "2";
 
-         if (correctAns !== allContestants[plr].answer){
-           fill("Green")
-         }
+         //if (correctAns !== allContestants[plr].answer){
+          // fill("Green")
+        // }
+        // else{
+         //  fill("red");
+        //}
+
+        if (correctAns === allContestants[plr].answer){
+          fill("Green")
+       }
          else{
            fill("red");
         }
-
-        //x if (correctAns === allContestants[plr].answer){
-        //   fill("Green")
-        // }
-        // else{
-        //   fill("red");
-        // }
 
         // if (correctAns === allContestants[plr].answer){
         //   fill("red")
